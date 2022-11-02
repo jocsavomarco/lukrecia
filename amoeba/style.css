@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+#state {
+    color:black;
+    text-shadow: 1px 1px 3px rgb(41, 42, 45);
+}
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+td {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(114, 161, 142);
+    box-shadow: 1px 1px 3px rgb(41, 42, 45);
+    cursor: pointer;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    border-radius: 10%;
+    user-select: none;
+}
+td:hover {
+    background-color: rgb(218, 227, 234);
+}
+button {
+    border: none;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(24, 68, 53);
+    box-shadow: 1px 1px 3px rgb(41, 42, 45);
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: rgb(114, 161, 142);
+}
