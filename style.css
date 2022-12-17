@@ -1,14 +1,3 @@
-#kor {
-    animation-name: patog;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes patog {
-    0% {cx: 50px; }
-    50% {cx: 500px;}
-}
-
 body {
     text-align: center;
     background-color: rgb(114, 161, 142);
